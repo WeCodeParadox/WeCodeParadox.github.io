@@ -1,0 +1,106 @@
+.hero .btn {
+    background-color: #222;
+    border-color: #222;
+}
+
+.vm-split {
+    width: 50%;
+}
+
+.vm-split .topic {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+@media (max-width: 800px) {
+    #vision-misson .hstack {
+        flex-direction: column;
+    }
+
+    .vm-split {
+        width: 80%;
+    }
+    #service button{
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    #home h1{
+        font-size: small;
+    }
+    #home .btn {
+        padding:2px 4px;
+        font-size:80%;
+        line-height: 2;
+      }
+}
+
+@media (max-width: 900px) {
+    #about .about {
+        flex-direction: column;
+    }
+    #about .p-5 {
+        padding: 0% !important;
+    }
+
+}
+
+#vision-misson p {
+    color: #000;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 70%;
+}
+
+#service .carousel-inner{
+    width: 80%;
+}
+#service #carouselExample{
+    display: flex;
+    justify-content: center;
+}
+
+#research{
+    background-color: #D9D9D9;;
+}
+
+.card{
+    border-color: transparent;
+}
+.topic {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.colab-topic{
+    background-color: #AAA4A4;
+    width: 100%;
+    text-align: start;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+form input{
+    background-color: #D9D9D9 !important;
+}
+.card{
+    border-radius: 0px;
+}
+a{
+    color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
